@@ -1,15 +1,14 @@
-[[language]]
-name = "Python"
-auto-format = true
-scope = "source.py"
-file-types = [".py"]
-roots = [".git"]
+# [[language]]
+# name = "Python"
+# scope = "source.py"
+# file-types = [".py"]
+# roots = [".git"]
 
 
-[language.formatter]
-command = "black"
-args = [
-	"-", #stdin
-	"--quiet",
-	"--line-length=90"
-]
+# [language.formatter]
+# command = "black"
+# args = [
+# 	"-", #stdin
+# 	"--quiet",
+# 	"--line-length=90"
+# ]

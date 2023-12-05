@@ -3,13 +3,14 @@ theme = "rose_pine_moon"
 [editor]
 auto-format = true
 cursorline = true
+bufferline = "multiple"
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 
 [editor.lsp]
-auto-signature-help = false
+auto-signature-help = true
 
 # vim keybinds from the venerated https://github.com/LGUG2Z/helix-vim
 [keys.normal]
@@ -107,6 +108,7 @@ g = { g = ["select_mode", "extend_to_line_bounds", "goto_file_start", "extend_to
 [keys.insert]
 # Escape the madness! No more fighting with the cursor! Or with multiple cursors!
 esc = ["collapse_selection", "normal_mode"]
+C-p = ["signature_help"]
 
 [keys.select]
 # Muscle memory
